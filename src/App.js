@@ -42,6 +42,96 @@ const App = () => {
           Desenvolvedora FrontEnd | Metodologias Ágeis ( Scrum / Kaban ) | JavaScript | HTML | CSS | StyledComponent | GIT |
           Python | React | React-Native |LGBTQIAP+
         </Text>
+        <View style={style.viewDIO}>
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+        </View>
+        <View style={style.viewDIO1}>
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+        </View>
+        <View style={style.viewDIO1}>
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+        </View>
+        <View style={style.viewDIO1}>
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+        </View>
+        <View style={style.viewDIO1}>
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text2]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+        </View>
+        <View style={style.viewDIO1}>
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+          <Text style={[style.Text1]} />
+        </View>
         <Pressable onPress={handlePressGoToGitHub}>
           <View style={style.button}>
             <Text style={[style.defaultText, style.textButton]}>
@@ -87,15 +177,39 @@ const style = StyleSheet.create({
   description: {
     fontWeight: 'bold',
     fontSize: 14,
+    textAlign: 'center',
   },
   button: {
     backgroundColor: colotDarkFontGitHub,
     borderRadius: 10,
     padding: 20,
-    marginTop: 20,
+    marginTop: 30,
   },
   textButton: {
     fontWeight: 'bold',
     fontSize: 16,
+  },
+  Text1: {
+    backgroundColor: '#216e39',
+    borderRadius: 30,
+    height: 15,
+    width: 15,
+    marginLeft: 1,
+  },
+  Text2: {
+    backgroundColor: '#59e785',
+    borderRadius: 30,
+    height: 15,
+    width: 15,
+    marginLeft: 1,
+  },
+  viewDIO: {
+    marginTop: 20,
+    flexDirection: 'row',
+    justifyContent: 'center',
+  },
+  viewDIO1: {
+    flexDirection: 'row',
+    justifyContent: 'center',
   },
 });
