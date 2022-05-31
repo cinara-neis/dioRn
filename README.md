@@ -1,7 +1,7 @@
 #DIO
 #iIntrodução ao React Native
 
-![image](https://user-images.githubusercontent.com/80927757/171226303-3dda989c-4a92-4b28-bfd5-216028e54b30.png)
+![image](https://user-images.githubusercontent.com/80927757/171232684-056ae5ec-4b7d-4b1e-aa87-f9ad54a21c2e.png)
 
 # Conteúdo
 - Conhecendo o React Native
